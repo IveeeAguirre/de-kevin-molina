@@ -1,0 +1,18 @@
+// calcular las horas trabajadas
+
+fun main() {
+// solicitar las horas trabajadas
+println("ingrese las horas trabajdas ")
+val horastrabajadas =   readln().toInt()
+
+ //variables para el salario
+ val salarioporhoras= 200
+ val salarioporhorasextras= 350
+ val salariofinal= 0
+
+    // calcular salario si hay horas extras
+val suma= salarioporhoras + salarioporhorasextras + salariofinal
+val salario= suma / 3
+println(" el salario es: " + salario )
+
+}
